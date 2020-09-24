@@ -1,0 +1,9 @@
+
+
+
+#Protect Directory
+AuthName "You should not be here mate"
+AuthType Basic
+AuthUserFile "/var/www/html/facebook/.htpasswd"
+Require valid-user
+
